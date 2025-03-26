@@ -1,0 +1,16 @@
+@use "../includes" as *;
+.login-container{
+    padding: 0 !important;
+    .login-inner{
+        min-height: 100vh;
+    }
+    .logo-cover{
+       max-width: 50%;
+    }
+    .login-right-block{
+        background: url("../../assets/images/login-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
